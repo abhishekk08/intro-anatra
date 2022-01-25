@@ -13093,7 +13093,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Running-a-Gaussian-job">Running a Gaussian job<a class="anchor-link" href="#Running-a-Gaussian-job">&#182;</a></h1><h2 id="g09">g09<a class="anchor-link" href="#g09">&#182;</a></h2><p>Below is an example script for an Gaussian09 job, which should be submitted from the <code style="background-color:#F7F7F7;border:1px solid #CFCFCF">/scratch/projects/[project-code]/</code> storage area.</p>
+<h1 id="Running-a-Gaussian-job">Running a Gaussian job<a class="anchor-link" href="#Running-a-Gaussian-job">&#182;</a></h1><h2 id="Gaussian-09">Gaussian 09<a class="anchor-link" href="#Gaussian-09">&#182;</a></h2><p>Below is an example script for an Gaussian09 job, which should be submitted from the <code style="background-color:#F7F7F7;border:1px solid #CFCFCF">/scratch/projects/[project-code]/</code> storage area.</p>
 <div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
 
 <span class="c1">#SBATCH --job-name=g09-test</span>
@@ -13116,7 +13116,7 @@ div#notebook {
 
 module purge
 module load slurm
-module load gaussian/16/A.02
+module load gaussian/09/A.02
 
 <span class="nb">source</span> <span class="nv">$g09profile</span>
 
